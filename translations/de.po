@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: node-gettext\n"
-"POT-Creation-Date: 2020-10-07 00:13+0000\n"
+"POT-Creation-Date: 2020-10-14 00:13+0000\n"
 "PO-Revision-Date: 2020-09-24 11:35+0000\n"
 "Last-Translator: Sophia Rabien <sophia.rabien@greenpeace.org>\n"
 "Language-Team: German <https://translate.getopensocial.com/projects/open-"
@@ -13,7 +13,23 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.1.1\n"
 
-#: modules/social_features/social_user/src/Form/SocialUserLoginForm.php:253
+#: modules/social_features/social_user/src/Form/SocialUserLoginForm.php:257
+msgid ""
+"\n"
+"        <p>Oops, there was an error. This may have happened for the "
+"following reasons:</p>\n"
+"        <ul>\n"
+"          <li>Invalid username/email and password combination. </li>\n"
+"          <li>There has been more than one failed login attempt for this "
+"account. It is temporarily blocked. </li>\n"
+"          <li>Too many failed login attempts from your computer (IP "
+"address). This IP address is temporarily blocked. </li>\n"
+"        </ul>\n"
+"        <p>To solve the issue, try using different login information, try "
+"again later, or <a href=\":url\">request a new password</a></p>"
+msgstr ""
+
+#: translations.php:29
 msgid ""
 "\n"
 "        Oops, there was an error. This may have happened for the following "
@@ -156,7 +172,7 @@ msgstr "- Keine -"
 msgid "- Restricted access -"
 msgstr "- Eingeschränkter Zugriff -"
 
-#: translations.php:81
+#: translations.php:89
 msgid "-- Select action --"
 msgstr ""
 
@@ -203,7 +219,7 @@ msgid_plural "@count items successfully processed:"
 msgstr[0] "1 Element wurde erfolgreich verarbeitet:"
 msgstr[1] "@count Elemente wurden erfolgreich verarbeitet:"
 
-#: themes/socialbase/templates/group/group--hero.html.twig:69
+#: themes/socialbase/templates/group/group--hero.html.twig:70
 #: themes/socialbase/templates/group/group--small-teaser.html.twig:27
 msgid "1 member"
 msgid_plural "@count members"
@@ -220,13 +236,13 @@ msgstr[1] ""
 msgid "1 minute"
 msgstr "1 Minute"
 
-#: translations.php:99
+#: translations.php:107
 msgid "1 selected enrollee has been exported successfully"
 msgid_plural "@count selected enrollees have been exported successfully"
 msgstr[0] "1 ausgewähltes Mitglied wurde erfolgreich exportiert"
 msgstr[1] "@count ausgewählte Mitglieder wurden erfolgreich exportiert"
 
-#: translations.php:103
+#: translations.php:111
 msgid "1 selected enrollee has been removed from the event successfully"
 msgid_plural ""
 "@count selected enrollees have been removed from the event successfully"
@@ -237,13 +253,13 @@ msgstr[1] ""
 "@count ausgewählte Teilnehmer*innen wurden erfolgreich von der Veranstaltung "
 "entfernt"
 
-#: translations.php:100
+#: translations.php:108
 msgid "1 selected enrollee has not been exported successfully"
 msgid_plural "@count selected enrollees have not been exported successfully"
 msgstr[0] "1 ausgewähltes Mitglied wurde nicht erfolgreich exportiert"
 msgstr[1] "@count ausgewählte Mitglieder wurden nicht erfolgreich exportiert"
 
-#: translations.php:104
+#: translations.php:112
 msgid "1 selected enrollee has not been removed from the event successfully"
 msgid_plural ""
 "@count selected enrollees have not been removed from the event successfully"
@@ -254,25 +270,25 @@ msgstr[1] ""
 "@count ausgewählte Teilnehmer*innen wurden nicht erfolgreich von der "
 "Veranstaltung entfernt"
 
-#: translations.php:105
+#: translations.php:113
 msgid "1 selected member has been exported successfully"
 msgid_plural "@count selected members have been exported successfully"
 msgstr[0] "1 ausgewähltes Mitglied wurde erfolgreich exportiert"
 msgstr[1] "@count ausgewählte Mitglieder wurden erfolgreich exportiert"
 
-#: translations.php:107
+#: translations.php:115
 msgid "1 selected member has been removed successfully"
 msgid_plural "@count selected members have been removed successfully"
 msgstr[0] "1 ausgewähltes Mitglied wurde erfolgreich entfernt"
 msgstr[1] "@count ausgewählte Mitglieder wurden erfolgreich entfernt"
 
-#: translations.php:106
+#: translations.php:114
 msgid "1 selected member has not been exported"
 msgid_plural "@count selected members have not been exported"
 msgstr[0] "1 ausgewähltes Mitglied wurde nicht exportiert"
 msgstr[1] "@count ausgewählte Mitglieder wurden nicht exportiert"
 
-#: translations.php:108
+#: translations.php:116
 msgid "1 selected member has not been removed successfully"
 msgid_plural "@count selected members have been removed successfully"
 msgstr[0] "1 ausgewähltes Mitglied wurde nicht erfolgreich entfernt"
@@ -1217,11 +1233,11 @@ msgstr ""
 msgid "@err"
 msgstr ""
 
-#: translations.php:55
+#: translations.php:63
 msgid "@interval ago"
 msgstr ""
 
-#: translations.php:54
+#: translations.php:62
 msgid "@interval hence"
 msgstr ""
 
@@ -1360,7 +1376,7 @@ msgstr[1] ""
 "@usernames sind bereits Mitglieder der Gruppe, du kannst sie nicht erneut "
 "hinzufügen"
 
-#: translations.php:49;89
+#: translations.php:57;97
 msgid ""
 "A Reply-To address is the email address that receives messages sent from "
 "those who select Reply in their email clients."
@@ -1588,12 +1604,12 @@ msgstr ""
 msgid "A user sends a private message to me"
 msgstr "Ein*e Nutzer*in hat mir eine private Nachricht geschickt"
 
-#: translations.php:73
+#: translations.php:81
 #: modules/social_features/social_profile/config/install/taxonomy.vocabulary.expertise.yml:0
 msgid "A users expertises"
 msgstr "Fähigkeiten eine(r*s) Nutzer*in"
 
-#: translations.php:75
+#: translations.php:83
 #: modules/social_features/social_profile/config/install/taxonomy.vocabulary.interests.yml:0
 msgid "A users interests for their profile."
 msgstr "Interessen eine(r*s) Nutzer*in für ihr Profil."
@@ -1642,7 +1658,7 @@ msgid "Accent style"
 msgstr ""
 
 #: modules/social_features/social_event/modules/social_event_invite/src/Form/EventInviteEnrollActionForm.php:55
-#: themes/socialbase/templates/group/group--hero.html.twig:90
+#: themes/socialbase/templates/group/group--hero.html.twig:91
 #: themes/socialblue/templates/group/group--statistic.html.twig:29
 #: modules/social_features/social_group/modules/social_group_invite/config/optional/views.view.social_group_user_invitations.yml:0;0
 msgid "Accept"
@@ -1748,7 +1764,7 @@ msgstr "Konto"
 msgid "Account header block"
 msgstr ""
 
-#: translations.php:69
+#: translations.php:77
 msgid "Account information"
 msgstr "Kontoinformation"
 
@@ -1778,6 +1794,10 @@ msgstr ""
 #: modules/social_features/social_group/modules/social_group_invite/config/optional/views.view.social_group_user_invitations.yml:0
 msgid "Actions"
 msgstr "Aktionen"
+
+#: themes/socialbase/templates/private_message/private-message-thread.html.twig:59
+msgid "Actions for this thread"
+msgstr ""
 
 #: modules/custom/social_auth_facebook/src/Form/FacebookAuthSettingsForm.php:64
 #: modules/custom/social_auth_google/src/Form/GoogleAuthSettingsForm.php:64
@@ -1970,7 +1990,7 @@ msgstr "Eine Antwort hinzufügen"
 msgid "Add a role to the selected users"
 msgstr ""
 
-#: translations.php:65
+#: translations.php:73
 msgid "Add attachment"
 msgstr "Anhang hinzufügen"
 
@@ -1994,7 +2014,7 @@ msgstr "Teilnehmer*innen hinzufügen"
 msgid "Add extra useful template suggestsions"
 msgstr "Füge zusätzliche nützliche Vorlagenvorschläge hinzu"
 
-#: themes/socialbase/templates/file/image-widget.html.twig:73
+#: themes/socialbase/templates/file/image-widget.html.twig:67
 msgid "Add image"
 msgstr "Bild hinzufügen"
 
@@ -2958,7 +2978,7 @@ msgid ""
 "At what number of event types to switch from radio buttons to select widget."
 msgstr ""
 
-#: translations.php:64
+#: translations.php:72
 msgid "Attachments"
 msgstr "Anhänge"
 
@@ -2989,17 +3009,17 @@ msgstr "Geschrieben von"
 msgid "Autocomplete Item"
 msgstr ""
 
-#: translations.php:124
+#: translations.php:132
 msgid "Autocomplete field with group names."
 msgstr "Autovervollständigungs-Feld mit Gruppennamen."
 
-#: translations.php:123
+#: translations.php:131
 msgid "Autocomplete field with items from taxonomy list content tags."
 msgstr ""
 "Autovervollständigungs-Feld mit Items aus der Taxonomie Liste für Inhalts-"
 "Tags."
 
-#: translations.php:122
+#: translations.php:130
 msgid "Autocomplete field with items from taxonomy list topic types."
 msgstr ""
 "Autovervollständigungs-Feld mit Items aus der Taxonomie Liste für "
@@ -3240,12 +3260,12 @@ msgstr ""
 "vervollständige dein Profil, damit dich deine Mitglieder besser kennenlernen "
 "können."
 
-#: translations.php:77
+#: translations.php:85
 #: modules/social_features/social_profile/modules/social_profile_organization_tag/config/install/taxonomy.vocabulary.profile_organization_tag.yml:0
 msgid "CM can tag a user and indicate that user is part of an organization."
 msgstr ""
 
-#: translations.php:79
+#: translations.php:87
 #: modules/social_features/social_profile/config/install/taxonomy.vocabulary.profile_tag.yml:0
 msgid "CM can tag a user, giving options on filtering / searching users."
 msgstr ""
@@ -3254,7 +3274,7 @@ msgstr ""
 msgid "Call to action link"
 msgstr ""
 
-#: translations.php:35
+#: translations.php:43
 msgid "Can not send e-mail for %entity"
 msgstr "E-Mail kann nicht gesendet werden für %entity"
 
@@ -3275,12 +3295,12 @@ msgstr "Anmeldung abbrechen"
 msgid "Cancel invite"
 msgstr ""
 
-#: themes/socialbase/templates/group/group--hero.html.twig:106
+#: themes/socialbase/templates/group/group--hero.html.twig:107
 #: themes/socialblue/templates/group/group--statistic.html.twig:44
 msgid "Cancel request"
 msgstr ""
 
-#: translations.php:92
+#: translations.php:100
 msgid "Canceled \"%action\"."
 msgstr ""
 
@@ -3288,7 +3308,7 @@ msgstr ""
 msgid "Card border radius (px)"
 msgstr ""
 
-#: translations.php:70
+#: translations.php:78
 #: modules/social_features/social_tagging/config/install/taxonomy.vocabulary.social_tagging.yml:0
 msgid "Categories and terms used to tag content"
 msgstr ""
@@ -3314,7 +3334,7 @@ msgstr "Verändere Rolle"
 msgid "Change roles"
 msgstr "Verändere Rollen"
 
-#: translations.php:117
+#: translations.php:125
 msgid "Change the role"
 msgstr "Die Rolle verändern"
 
@@ -3392,7 +3412,7 @@ msgstr ""
 msgid "Clear all selected enrollees"
 msgstr "Auswahl für ausgewählte Teilnehmer*innen aufheben"
 
-#: translations.php:48
+#: translations.php:56
 msgid "Clear all selected members"
 msgstr "Auswahl für ausgewählte Mitglieder aufheben"
 
@@ -3427,14 +3447,16 @@ msgstr ""
 #: modules/custom/social_language/src/SocialLanguageModalRenderer.php:22
 #: modules/social_features/social_content_report/src/Plugin/views/field/LinkReportClose.php:34
 #: themes/socialbase/components/02-atoms/alert/alert.twig:3
-#: themes/socialbase/templates/form/datetime-wrapper.html.twig:41
-#: themes/socialbase/templates/form/fieldset.html.twig:66
-#: themes/socialbase/templates/form/form-element.html.twig:100
-#: themes/socialbase/templates/system/status-messages.html.twig:54
+#: themes/socialbase/components/03-molecules/form-elements/inline-form-error.twig:6
+#: themes/socialbase/templates/form/datetime-wrapper.html.twig:42
+#: themes/socialbase/templates/form/fieldset.html.twig:67
+#: themes/socialbase/templates/form/form-element.html.twig:101
+#: themes/socialbase/templates/form/form.html.twig:47
+#: themes/socialbase/templates/system/status-messages.html.twig:69
 msgid "Close"
 msgstr "Schließen"
 
-#: translations.php:83
+#: translations.php:91
 msgid "Close report"
 msgstr ""
 
@@ -3464,7 +3486,7 @@ msgstr "Geschlossene Gruppe: Gruppenmitgliedschaft"
 msgid "Closed group: Group membership request"
 msgstr ""
 
-#: translations.php:94
+#: translations.php:102
 msgid "Collaboration Settings"
 msgstr ""
 
@@ -4270,7 +4292,7 @@ msgstr "Datenschutzvereinbarung"
 msgid "Date"
 msgstr "Datum"
 
-#: translations.php:63
+#: translations.php:71
 msgid "Date & time"
 msgstr "Datum & Zeit"
 
@@ -4300,7 +4322,7 @@ msgstr "Tag Monat Zeit"
 
 #: modules/social_features/social_event/social_event.module:905
 #: modules/social_features/social_event/modules/social_event_invite/src/Form/EventInviteEnrollActionForm.php:105
-#: themes/socialbase/templates/group/group--hero.html.twig:93
+#: themes/socialbase/templates/group/group--hero.html.twig:94
 #: themes/socialblue/templates/group/group--statistic.html.twig:32
 #: modules/social_features/social_group/modules/social_group_invite/config/optional/views.view.social_group_user_invitations.yml:0;0
 msgid "Decline"
@@ -4590,7 +4612,7 @@ msgstr ""
 "oder als einzelnes Tag-Feld verwendet werden, wenn Inhalte verschlagwortet "
 "werden."
 
-#: translations.php:30
+#: translations.php:38
 msgid "Determine wether users can upload documents to comments."
 msgstr ""
 
@@ -4722,7 +4744,7 @@ msgstr "Zählen Sie keine Downloads für Benutzer mit dieser Rolle."
 msgid "Do not show threads a user deleted."
 msgstr ""
 
-#: modules/social_features/social_user/src/Form/SocialUserLoginForm.php:91
+#: modules/social_features/social_user/src/Form/SocialUserLoginForm.php:95
 #: modules/social_features/social_user/src/Form/SocialUserPasswordForm.php:47
 msgid "Don't have an account yet? @link"
 msgstr "Noch kein Benutzerkonto? @link"
@@ -4795,7 +4817,7 @@ msgstr ""
 "du keinen Link zur Zurücksetzung des Passwortes. Bitte kontaktiere "
 "@admin_link wenn Probleme auftreten."
 
-#: translations.php:43
+#: translations.php:51
 #: modules/social_features/social_user/social_user.module:255
 msgid ""
 "Due to privacy concerns, we can't disclose the existence of registered email "
@@ -4877,8 +4899,8 @@ msgstr "Alle Beitragsentitäten bearbeiten"
 
 #: modules/social_features/social_core/templates/page-hero-data.html.twig:32
 #: modules/social_features/social_landing_page/templates/node--landing-page.html.twig:85
-#: themes/socialbase/templates/node/node--hero.html.twig:82
-#: themes/socialblue/templates/node/node--hero--sky.html.twig:91
+#: themes/socialbase/templates/node/node--hero.html.twig:82;85
+#: themes/socialblue/templates/node/node--hero--sky.html.twig:91;94
 msgid "Edit content"
 msgstr "Inhalt bearbeiten"
 
@@ -4886,8 +4908,8 @@ msgstr "Inhalt bearbeiten"
 msgid "Edit existing groups their group type"
 msgstr "Gruppentyp bestehender Gruppen bearbeiten"
 
-#: themes/socialbase/templates/group/group--hero.html.twig:39
-#: themes/socialblue/templates/group/group--hero--sky.html.twig:12
+#: themes/socialbase/templates/group/group--hero.html.twig:39;41
+#: themes/socialblue/templates/group/group--hero--sky.html.twig:12;14
 msgid "Edit group"
 msgstr "Gruppe bearbeiten"
 
@@ -4908,8 +4930,8 @@ msgstr "Eigene Beitragsentitäten bearbeten"
 msgid "Edit profile"
 msgstr "Profil bearbeiten"
 
-#: themes/socialbase/templates/profile/profile--profile--hero.html.twig:32
-#: themes/socialblue/templates/profile/profile--profile--hero--sky.html.twig:11
+#: themes/socialbase/templates/profile/profile--profile--hero.html.twig:32;34
+#: themes/socialblue/templates/profile/profile--profile--hero--sky.html.twig:11;14
 #: themes/socialblue/templates/profile/profile--profile--statistic.html.twig:41
 msgid "Edit profile information"
 msgstr "Profilinformationen bearbeiten"
@@ -5159,7 +5181,7 @@ msgstr "Angemeldet"
 msgid "Enrollee"
 msgstr "Teilnehmer*in"
 
-#: translations.php:82
+#: translations.php:90
 msgid "Enrollment options"
 msgstr "Anmeldungsoptionen"
 
@@ -5305,7 +5327,7 @@ msgstr ""
 msgid "Error when joining the group."
 msgstr ""
 
-#: translations.php:88
+#: translations.php:96
 #: modules/custom/social_demo/src/Plugin/DemoContent/Event.php:14
 #: modules/social_features/social_event/config/install/field.field.event_enrollment.event_enrollment.field_event.yml:0
 #: modules/social_features/social_event/config/install/node.type.event.yml:0
@@ -5438,7 +5460,7 @@ msgstr "Veranstaltungstyp"
 msgid "Event type settings"
 msgstr "Veranstaltungstyp Einstellungen"
 
-#: translations.php:71
+#: translations.php:79
 #: modules/social_features/social_content_block/modules/social_event_content_block/config/optional/field.field.block_content.custom_content_list.field_event_type.yml:0
 #: modules/social_features/social_event/modules/social_event_type/config/install/taxonomy.vocabulary.event_types.yml:0;0
 msgid "Event types"
@@ -5478,11 +5500,11 @@ msgstr "Veranstaltungen Profilübersicht"
 msgid "Excluded file extensions"
 msgstr "Ausgeschlossene Dateierweiterungen"
 
-#: translations.php:91
+#: translations.php:99
 msgid "Execute action"
 msgstr ""
 
-#: translations.php:72
+#: translations.php:80
 #: themes/socialbase/templates/profile/profile--profile--default.html.twig:111
 #: themes/socialblue/templates/profile/profile--profile--default--sky.html.twig:104
 #: modules/social_features/social_profile/config/install/field.field.profile.profile.field_profile_expertise.yml:0
@@ -5512,7 +5534,7 @@ msgstr "Erkunde Funktionalität."
 msgid "Explore page for LU"
 msgstr "Erkunde Seite für LU"
 
-#: translations.php:116
+#: translations.php:124
 msgid "Export"
 msgstr "Exportieren"
 
@@ -5870,7 +5892,7 @@ msgstr ""
 msgid "Forces the given body text to be HTML."
 msgstr ""
 
-#: modules/social_features/social_user/src/Form/SocialUserLoginForm.php:65
+#: modules/social_features/social_user/src/Form/SocialUserLoginForm.php:66
 msgid "Forgot password?"
 msgstr "Passwort vergessen?"
 
@@ -5910,7 +5932,7 @@ msgstr "Ganzer HTML"
 msgid "Function"
 msgstr "Funktion"
 
-#: translations.php:68
+#: translations.php:76
 msgid "Function and organization"
 msgstr "Funktion und Organisation"
 
@@ -5964,6 +5986,10 @@ msgstr ""
 msgid "Give a title that will appear when hovering over this link."
 msgstr ""
 
+#: themes/socialbase/templates/private_message/private-message-thread.html.twig:48
+msgid "Go back to your inbox"
+msgstr ""
+
 #: themes/socialbase/templates/system/pager.html.twig:44
 msgid "Go to first page"
 msgstr "Zur ersten Seite"
@@ -6002,6 +6028,7 @@ msgstr ""
 
 #: modules/custom/group_core_comments/group_core_comments.info.yml:0
 #: modules/custom/social_demo/src/Plugin/DemoContent/Group.php:7
+#: modules/social_features/social_featured_content/templates/group--featured.html.twig:43
 #: modules/social_features/social_group/social_group.module:1592
 #: modules/social_features/social_group/social_group.routing.yml:0
 #: modules/social_features/social_group/src/Plugin/Action/AddMembersToGroup.php:145
@@ -6268,7 +6295,7 @@ msgstr "Gruppen-URL"
 msgid "Guest"
 msgstr "Gast"
 
-#: translations.php:86
+#: translations.php:94
 #: modules/social_features/social_event/modules/social_event_an_enroll/config/install/views.view.manage_enrollments.yml:0
 msgid "Guest enrollments"
 msgstr "Gastanmeldungen"
@@ -6606,7 +6633,7 @@ msgstr ""
 msgid "Integration with Ajax Comments."
 msgstr ""
 
-#: translations.php:74
+#: translations.php:82
 #: modules/social_features/social_user_export/src/Plugin/UserExportPlugin/UserInterests.php:23;8
 #: themes/socialbase/templates/profile/profile--profile--default.html.twig:118
 #: themes/socialblue/templates/profile/profile--profile--default--sky.html.twig:115
@@ -6674,14 +6701,14 @@ msgstr ""
 msgid "Invite-only"
 msgstr ""
 
-#: translations.php:39
+#: translations.php:47
 #: modules/social_features/social_event/config/install/field.storage.node.field_enroll_method.yml:0
 msgid ""
 "Invite-only - users can only enroll for this event if they are added/invited "
 "by event organisers"
 msgstr ""
 
-#: translations.php:41
+#: translations.php:49
 #: modules/social_features/social_group/social_group.module:751
 msgid ""
 "Invite-only - users can only join this group if they are added/invited by "
@@ -6810,7 +6837,7 @@ msgstr ""
 msgid "Javascript"
 msgstr "JavaScript"
 
-#: themes/socialbase/templates/group/group--hero.html.twig:90;117;117
+#: themes/socialbase/templates/group/group--hero.html.twig:91;118;118
 #: themes/socialblue/templates/group/group--statistic.html.twig:29;55;55
 msgid "Join"
 msgstr "Beitreten"
@@ -6827,7 +6854,7 @@ msgstr "Der Gruppe beitreten"
 msgid "Join to group"
 msgstr "Der Gruppe beitreten"
 
-#: themes/socialbase/templates/group/group--hero.html.twig:97
+#: themes/socialbase/templates/group/group--hero.html.twig:98
 #: themes/socialblue/templates/group/group--statistic.html.twig:35
 msgctxt "Is a member"
 msgid "Joined"
@@ -7014,7 +7041,7 @@ msgstr "Schreibe einen Kommentar"
 msgid "Leave a message to @name"
 msgstr "Eine Nachricht für @name hinterlassen"
 
-#: themes/socialbase/templates/group/group--hero.html.twig:99
+#: themes/socialbase/templates/group/group--hero.html.twig:100
 #: themes/socialblue/templates/group/group--statistic.html.twig:37
 msgid "Leave group"
 msgstr "Gruppe verlassen"
@@ -7129,7 +7156,7 @@ msgstr "Anmelden"
 #: modules/social_features/social_event/src/Form/EnrollRequestAnonymousForm.php:52
 #: modules/social_features/social_group/modules/social_group_request/src/Form/GroupRequestMembershipRequestAnonymousForm.php:98
 #: modules/social_features/social_user/social_user.module:220
-#: modules/social_features/social_user/src/Form/SocialUserLoginForm.php:100
+#: modules/social_features/social_user/src/Form/SocialUserLoginForm.php:104
 #: modules/social_features/social_user/src/Routing/RouteSubscriber.php:24
 msgid "Log in"
 msgstr "Anmelden"
@@ -7155,11 +7182,11 @@ msgstr "Anmelden"
 msgid "Login and Registration help texts"
 msgstr ""
 
-#: modules/social_features/social_user/src/Form/SocialUserLoginForm.php:233
+#: modules/social_features/social_user/src/Form/SocialUserLoginForm.php:237
 msgid "Login attempt failed for %user."
 msgstr "Anmeldung für %user fehlgeschlagen."
 
-#: modules/social_features/social_user/src/Form/SocialUserLoginForm.php:238
+#: modules/social_features/social_user/src/Form/SocialUserLoginForm.php:242
 msgid "Login attempt failed from %ip."
 msgstr "Anmeldeversuch fehlgeschlagen von %ip."
 
@@ -7222,7 +7249,7 @@ msgstr ""
 msgid "Manage All Enrollments"
 msgstr "Verwalte alle Anmeldungen"
 
-#: translations.php:93
+#: translations.php:101
 #: modules/social_features/social_event/modules/social_event_an_enroll/config/install/views.view.manage_enrollments.yml:0;0
 msgid "Manage Enrollments"
 msgstr "Verwalte Anmeldungen"
@@ -7694,7 +7721,7 @@ msgstr "Name"
 msgid "Name or email contains"
 msgstr "Name oder E-Mail enthält"
 
-#: translations.php:62
+#: translations.php:70
 msgid "Names and profile image"
 msgstr "Name und Profilbild"
 
@@ -8005,7 +8032,7 @@ msgstr ""
 msgid "Notification"
 msgstr "Benachrichtigung"
 
-#: modules/social_features/social_activity/social_activity.module:42;49;140;1
+#: modules/social_features/social_activity/social_activity.module:42;50;141;1
 msgid "Notification Centre"
 msgstr "Benachrichtigungszentrale"
 
@@ -8269,7 +8296,7 @@ msgstr "Datei herunterladen oder öffnen"
 msgid "Open to enroll"
 msgstr ""
 
-#: translations.php:37
+#: translations.php:45
 #: modules/social_features/social_event/config/install/field.storage.node.field_enroll_method.yml:0
 msgid "Open to enroll - users can enroll for this event without approval"
 msgstr ""
@@ -8278,7 +8305,7 @@ msgstr ""
 msgid "Open to join"
 msgstr ""
 
-#: translations.php:42
+#: translations.php:50
 #: modules/social_features/social_group/social_group.module:754
 msgid "Open to join - users can join this group without approval"
 msgstr ""
@@ -8501,7 +8528,7 @@ msgstr ""
 msgid "Paragraphs"
 msgstr ""
 
-#: modules/social_features/social_user/src/Form/SocialUserLoginForm.php:71
+#: modules/social_features/social_user/src/Form/SocialUserLoginForm.php:72
 msgid "Password"
 msgstr "Passwort"
 
@@ -8566,7 +8593,7 @@ msgstr "Telefon"
 msgid "Phone number"
 msgstr "Telefonnummer"
 
-#: translations.php:67
+#: translations.php:75
 msgid "Phone number and location"
 msgstr "Telefonnummer und Anschrift"
 
@@ -8857,7 +8884,7 @@ msgstr ""
 msgid "Private file system path not set for some fields"
 msgstr ""
 
-#: themes/socialbase/templates/profile/profile--profile--hero.html.twig:67
+#: themes/socialbase/templates/profile/profile--profile--hero.html.twig:68
 #: themes/socialbase/templates/profile/profile--profile--teaser.html.twig:91
 #: themes/socialblue/templates/profile/profile--profile--statistic.html.twig:36
 msgid "Private message"
@@ -8963,7 +8990,7 @@ msgstr "Profil von @name"
 msgid "Profile of others"
 msgstr "Profil von anderen"
 
-#: translations.php:76
+#: translations.php:84
 #: modules/social_features/social_profile/modules/social_profile_organization_tag/config/install/taxonomy.vocabulary.profile_organization_tag.yml:0
 msgid "Profile organization tag"
 msgstr "Profil Organisations-Tag"
@@ -8985,7 +9012,7 @@ msgstr "Profil klein"
 msgid "Profile statistic block"
 msgstr ""
 
-#: translations.php:78
+#: translations.php:86
 #: modules/social_features/social_user_export/src/Plugin/UserExportPlugin/UserProfileTag.php:23;8
 #: modules/social_features/social_profile/config/install/field.field.profile.profile.field_profile_profile_tag.yml:0
 #: modules/social_features/social_profile/config/install/taxonomy.vocabulary.profile_tag.yml:0
@@ -9323,9 +9350,9 @@ msgid "Re-order rows by numerical weight instead of dragging."
 msgstr "Zeilen mittels numerischer Gewichtung ordnen statt mit Drag-and-Drop."
 
 #: modules/custom/group_core_comments/templates/comments-join-group.html.twig:45
-#: modules/social_features/social_featured_content/templates/group--featured.html.twig:100
-#: modules/social_features/social_featured_content/templates/node--featured.html.twig:161
-#: modules/social_features/social_featured_content/templates/profile--featured.html.twig:53
+#: modules/social_features/social_featured_content/templates/group--featured.html.twig:102
+#: modules/social_features/social_featured_content/templates/node--featured.html.twig:164
+#: modules/social_features/social_featured_content/templates/profile--featured.html.twig:56
 #: themes/socialbase/templates/group/group--teaser.html.twig:139
 #: themes/socialblue/templates/node/node--featured--sky.html.twig:78
 #: themes/socialblue/templates/node/event/node--event--featured--sky.html.twig:87
@@ -9505,7 +9532,7 @@ msgstr ""
 msgid "Remark"
 msgstr ""
 
-#: translations.php:115
+#: translations.php:123
 #: modules/social_features/social_event/modules/social_event_invite/social_event_invite.module:285
 #: modules/social_features/social_group/social_group.module:589;2003
 msgid "Remove"
@@ -9531,7 +9558,7 @@ msgstr ""
 msgid "Remove demo content."
 msgstr "Demo-Inhalt entfernen."
 
-#: themes/socialbase/templates/file/image-widget.html.twig:49
+#: themes/socialbase/templates/file/image-widget.html.twig:43
 msgid "Remove image"
 msgstr "Bild entfernen"
 
@@ -9591,7 +9618,7 @@ msgstr "Antwort Kommentar"
 msgid "Reply to Comment"
 msgstr "Auf einen Kommentar antworten"
 
-#: translations.php:95
+#: translations.php:103
 #: modules/social_features/social_user/src/Plugin/Action/SocialSendEmail.php:221
 msgid "Reply-to"
 msgstr ""
@@ -9685,7 +9712,7 @@ msgstr ""
 msgid "Request page link."
 msgstr ""
 
-#: themes/socialbase/templates/group/group--hero.html.twig:104
+#: themes/socialbase/templates/group/group--hero.html.twig:105
 #: themes/socialblue/templates/group/group--statistic.html.twig:42
 msgid "Request sent"
 msgstr ""
@@ -9709,7 +9736,7 @@ msgid ""
 "event organisers approve/decline"
 msgstr ""
 
-#: translations.php:38
+#: translations.php:46
 msgid ""
 "Request to enroll - users can 'request to enroll' for this event which event "
 "organisers approve/decline"
@@ -9718,12 +9745,12 @@ msgstr ""
 #: modules/social_features/social_group/modules/social_group_flexible_group/social_group_flexible_group.module:85
 #: modules/social_features/social_group/modules/social_group_request/social_group_request.module:193
 #: modules/social_features/social_group/modules/social_group_request/src/Controller/GroupRequestController.php:141;157
-#: themes/socialbase/templates/group/group--hero.html.twig:109;109;115;115
+#: themes/socialbase/templates/group/group--hero.html.twig:110;110;116;116
 #: themes/socialblue/templates/group/group--statistic.html.twig:47;47;53;53
 msgid "Request to join"
 msgstr ""
 
-#: translations.php:40
+#: translations.php:48
 #: modules/social_features/social_group/modules/social_group_request/social_group_request.module:369
 msgid ""
 "Request to join - users can \"request to join\" this group which group "
@@ -9888,7 +9915,7 @@ msgstr "Sag deiner Gruppe etwas"
 #: modules/social_features/social_search/social_search.module:214
 #: modules/social_features/social_search/src/SocialSearchBreadcrumbBuilder.php:53
 #: modules/social_features/social_search/src/Form/SearchHeroForm.php:73;84
-#: themes/socialbase/templates/block/block--system-menu-block--main.html.twig:52
+#: themes/socialbase/templates/block/block--system-menu-block--main.html.twig:53
 #: modules/social_features/social_search/config/install/views.view.search_all.yml:0
 #: modules/social_features/social_search/config/optional/block.block.search_block_hero.yml:0
 #: modules/social_features/social_search/config/optional/block.block.socialblue_search_block_hero.yml:0
@@ -10036,7 +10063,7 @@ msgstr "Alle ausgewählten Mitglieder auf anderen Seiten anschauen"
 msgid "Select / unselect all @count members across all the pages"
 msgstr "Alle @count Mitglieder auf allen Seiten auswählen / Auswahl aufheben"
 
-#: translations.php:47
+#: translations.php:55
 msgid "Select / unselect all @count results in this view"
 msgstr "Aktivieren / Deaktivieren aller @count Ergebnisse in dieser Ansicht"
 
@@ -10150,7 +10177,7 @@ msgstr ""
 msgid "Select which usage data to share"
 msgstr ""
 
-#: translations.php:96
+#: translations.php:104
 msgid "Selected @count entities:"
 msgstr ""
 
@@ -10163,7 +10190,7 @@ msgstr "Eigene Beschreibung"
 msgid "Self introduction"
 msgstr "Eigene Beschreibung"
 
-#: translations.php:66
+#: translations.php:74
 msgid "Self introduction, expertise and interests"
 msgstr "Vorstellung, Fähigkeiten und Interessen"
 
@@ -10199,7 +10226,7 @@ msgstr ""
 msgid "Send invite(s)"
 msgstr ""
 
-#: translations.php:34
+#: translations.php:42
 msgid "Send mail"
 msgstr "E-Mail senden"
 
@@ -10229,7 +10256,7 @@ msgstr ""
 msgid "Sending invites..."
 msgstr ""
 
-#: translations.php:36
+#: translations.php:44
 msgid "Sent email to %recipient"
 msgstr "E-Mail wurde an %recipient gesendet"
 
@@ -10282,11 +10309,11 @@ msgid ""
 "display is invalidated."
 msgstr ""
 
-#: translations.php:29
+#: translations.php:37
 msgid "Set wether event types field is required or not."
 msgstr ""
 
-#: translations.php:31
+#: translations.php:39
 msgid "Set wether the tour is enabled or not."
 msgstr ""
 
@@ -10387,7 +10414,7 @@ msgstr ""
 "Informationen teilen und Diskussionen mit einem Beitrag oder einem Inhalt "
 "starten."
 
-#: themes/socialblue/templates/node/node--hero--sky.html.twig:233
+#: themes/socialblue/templates/node/node--hero--sky.html.twig:234
 #: modules/social_features/social_sharing/config/optional/block.block.shariffsharebuttons.yml:0
 #: modules/social_features/social_sharing/config/optional/block.block.shariffsharebuttons_2.yml:0
 msgid "Share this page"
@@ -10468,7 +10495,7 @@ msgstr "Registrieren"
 #: modules/social_features/social_event/src/Form/EnrollRequestAnonymousForm.php:38
 #: modules/social_features/social_group/modules/social_group_request/src/Form/GroupRequestMembershipRequestAnonymousForm.php:82
 #: modules/social_features/social_user/social_user.links.menu.yml:0
-#: modules/social_features/social_user/src/Form/SocialUserLoginForm.php:88
+#: modules/social_features/social_user/src/Form/SocialUserLoginForm.php:92
 #: modules/social_features/social_user/src/Form/SocialUserPasswordForm.php:44
 msgid "Sign up"
 msgstr "Registrieren"
@@ -11871,7 +11898,7 @@ msgstr ""
 msgid "The enrollment request of @name has been declined."
 msgstr ""
 
-#: translations.php:44
+#: translations.php:52
 #: modules/social_features/social_user/social_user.module:261
 msgid ""
 "The entered username already exists or has an incorrect format. Please try "
@@ -12121,14 +12148,14 @@ msgstr "Der zugehörige Titel des Inhaltes."
 msgid "The request to enroll to an enrollment is approved"
 msgstr ""
 
-#: translations.php:109
+#: translations.php:117
 msgid "The role of 1 selected member has been changed successfully"
 msgid_plural ""
 "The role of @count selected members have been changed successfully"
 msgstr[0] ""
 msgstr[1] ""
 
-#: translations.php:110
+#: translations.php:118
 msgid "The role of 1 selected member has not been changed successfully"
 msgid_plural ""
 "The role of @count selected members have not been changed successfully"
@@ -12270,7 +12297,7 @@ msgstr ""
 msgid "The user that is mentioned"
 msgstr ""
 
-#: modules/social_features/social_user/src/Form/SocialUserLoginForm.php:144
+#: modules/social_features/social_user/src/Form/SocialUserLoginForm.php:148
 msgid "The username %name has not been activated or is blocked."
 msgstr "Der Benutzername %name wurde nicht aktiviert oder ist gesperrt."
 
@@ -12286,12 +12313,12 @@ msgstr ""
 "Der Wert ist der gespeicherte Wert. Die Beschriftung und Beschreibung wird "
 "bei angezeigten Werten und Bearbeitungsformularen verwendet."
 
-#: modules/social_features/social_featured_content/templates/node--featured.html.twig:148
+#: modules/social_features/social_featured_content/templates/node--featured.html.twig:151
 #: themes/socialbase/templates/node/node--full.html.twig:195
 #: themes/socialbase/templates/node/node--teaser.html.twig:165
 #: themes/socialbase/templates/node/event/node--event--teaser.html.twig:37
 #: themes/socialblue/templates/node/node--featured--sky.html.twig:11
-#: themes/socialblue/templates/node/node--hero--sky.html.twig:132
+#: themes/socialblue/templates/node/node--hero--sky.html.twig:133
 #: themes/socialblue/templates/node/event/node--event--featured--sky.html.twig:11
 msgid "The visibility of this content is set to @visibility_label"
 msgstr ""
@@ -12349,6 +12376,11 @@ msgstr "Es ist ein unerwarteter Fehler aufgetreten."
 msgid ""
 "These fields allow you to configure various help texts that are shown to "
 "users during signup and login"
+msgstr ""
+
+#: themes/socialbase/templates/form/form-element-label--switch.html.twig:25
+#: themes/socialbase/templates/form/form-element-label.html.twig:36
+msgid "This field is required"
 msgstr ""
 
 #: modules/custom/dropdown/src/Plugin/Field/FieldType/Dropdown.php:10
@@ -12501,7 +12533,7 @@ msgstr ""
 msgid "Title"
 msgstr "Titel"
 
-#: translations.php:61
+#: translations.php:69
 msgid "Title & image"
 msgstr "Titel & Bild"
 
@@ -12544,7 +12576,7 @@ msgstr ""
 "private Bildfelder nutzen und diese nicht in die Anzahl der Downloads "
 "einbeziehen möchten."
 
-#: translations.php:121
+#: translations.php:129
 msgid ""
 "To make the list of topics more specific you can additionally configure more "
 "filters such as topic types, content tags and groups."
@@ -12610,7 +12642,7 @@ msgstr ""
 msgid "Tokens from the social mentions module."
 msgstr ""
 
-#: translations.php:87
+#: translations.php:95
 #: modules/custom/social_demo/src/Plugin/DemoContent/Topic.php:13
 #: modules/social_features/social_topic/config/install/node.type.topic.yml:0
 msgid "Topic"
@@ -12635,7 +12667,7 @@ msgstr ""
 msgid "Topic type"
 msgstr ""
 
-#: translations.php:80
+#: translations.php:88
 #: modules/social_features/social_topic/config/install/taxonomy.vocabulary.topic_types.yml:0;0
 msgid "Topic types"
 msgstr "Inhaltstypen"
@@ -12658,7 +12690,7 @@ msgstr "Inhalte vom Typ @type"
 
 #: themes/socialbase/templates/node/node--full.html.twig:155
 #: themes/socialblue/templates/node/node--featured--sky.html.twig:52
-#: themes/socialblue/templates/node/node--hero--sky.html.twig:174
+#: themes/socialblue/templates/node/node--hero--sky.html.twig:175
 #: themes/socialblue/templates/node/event/node--event--featured--sky.html.twig:61
 msgid "Total amount of comments"
 msgstr "Gesamtanzahl der Kommentare"
@@ -12668,7 +12700,7 @@ msgstr "Gesamtanzahl der Kommentare"
 msgid "Total amount of enrollments"
 msgstr ""
 
-#: modules/social_features/social_featured_content/templates/group--featured.html.twig:80
+#: modules/social_features/social_featured_content/templates/group--featured.html.twig:82
 #: themes/socialbase/templates/group/group--teaser.html.twig:120
 msgid "Total amount of group members"
 msgstr ""
@@ -12680,7 +12712,7 @@ msgid "Total amount of likes"
 msgstr "Gesamtanzahl \"Gefällt mir\""
 
 #: themes/socialbase/templates/node/node--full.html.twig:207
-#: themes/socialblue/templates/node/node--hero--sky.html.twig:197
+#: themes/socialblue/templates/node/node--hero--sky.html.twig:198
 msgid "Total amount of views"
 msgstr "Gesamtanzahl von Besuchen"
 
@@ -13041,6 +13073,7 @@ msgstr "Zum Speichern und Verwalten von externen Benachrichtigungen"
 
 #: modules/custom/mentions/src/MentionsViewsData.php:81;93
 #: modules/custom/social_demo/src/Plugin/DemoContent/User.php:7
+#: modules/social_features/social_featured_content/templates/profile--featured.html.twig:36
 #: modules/social_features/social_event/config/install/views.view.event_enrollments.yml:0
 #: modules/social_features/social_event/modules/social_event_managers/config/install/views.view.managers.yml:0
 #: modules/social_features/social_follow_content/config/install/views.view.following.yml:0
@@ -13145,7 +13178,7 @@ msgstr "Benutzermenü"
 msgid "User name"
 msgstr "Benutzername"
 
-#: translations.php:90
+#: translations.php:98
 #: modules/social_features/social_user/social_user.links.menu.yml:0;0
 #: modules/social_features/social_user/social_user.routing.yml:0
 msgid "User settings"
@@ -13243,7 +13276,7 @@ msgstr "Aktivitäten anzeigen"
 msgid "View all hidden profile fields"
 msgstr "Alle ausgeblendeten Profilfelder anzeigen"
 
-#: modules/social_features/social_activity/social_activity.module:95
+#: modules/social_features/social_activity/social_activity.module:96
 msgid "View all notifications"
 msgstr "Alle Benachrichtigungen anzeigen"
 
@@ -13838,7 +13871,7 @@ msgid "You have insufficient permissions to delete this vocabulary"
 msgstr ""
 "Du hast keine ausreichenden Berechtigungen, um dieses Vokabular zu löschen"
 
-#: modules/social_features/social_featured_content/templates/group--featured.html.twig:94
+#: modules/social_features/social_featured_content/templates/group--featured.html.twig:96
 #: themes/socialbase/templates/group/group--teaser.html.twig:134
 msgctxt "Is a member"
 msgid "You have joined"
@@ -13977,40 +14010,40 @@ msgstr ""
 "Dein Account wurde erstellt. Wir haben dir eine E-Mail mit den Details zu "
 "deinem Benutzerkonto geschickt. Du kannst nun anfangen Greenwire zu erkunden."
 
-#: translations.php:101
+#: translations.php:109
 msgid "Your email has been sent to 1 selected enrollee successfully"
 msgid_plural ""
 "Your email has been sent to @count selected enrollees successfully"
 msgstr[0] ""
 msgstr[1] ""
 
-#: translations.php:111
+#: translations.php:119
 msgid "Your email has been sent to 1 selected member successfully"
 msgid_plural "Your email has been sent to @count selected members successfully"
 msgstr[0] ""
 msgstr[1] ""
 
-#: translations.php:102
+#: translations.php:110
 msgid "Your email has not been sent to 1 selected enrollee successfully"
 msgid_plural ""
 "Your email has not been sent to @count selected enrollees successfully"
 msgstr[0] ""
 msgstr[1] ""
 
-#: translations.php:112
+#: translations.php:120
 msgid "Your email has not been sent to 1 selected member successfully"
 msgid_plural ""
 "Your email has not been sent to @count selected members successfully"
 msgstr[0] ""
 msgstr[1] ""
 
-#: translations.php:113
+#: translations.php:121
 msgid "Your email will be send to 1 selected enrollee"
 msgid_plural "Your email will be send to @count selected enrollees"
 msgstr[0] ""
 msgstr[1] ""
 
-#: translations.php:114
+#: translations.php:122
 msgid "Your email will be send to 1 selected member"
 msgid_plural "Your email will be send to @count selected members"
 msgstr[0] ""
@@ -14177,11 +14210,15 @@ msgid ""
 "span.badge.badge--pill.badge-default|Pill badge"
 msgstr ""
 
-#: modules/social_features/social_featured_content/templates/node--featured.html.twig:162
-#: modules/social_features/social_featured_content/templates/profile--featured.html.twig:54
+#: modules/social_features/social_featured_content/templates/group--featured.html.twig:103
+#: modules/social_features/social_featured_content/templates/node--featured.html.twig:165
 #: themes/socialblue/templates/node/node--featured--sky.html.twig:79
 #: themes/socialblue/templates/node/event/node--event--featured--sky.html.twig:88
 msgid "about @label"
+msgstr ""
+
+#: modules/social_features/social_featured_content/templates/profile--featured.html.twig:57
+msgid "about @profile_name @profile_name_extra"
 msgstr ""
 
 #: modules/social_features/social_profile/social_profile.module:149
@@ -14216,7 +14253,7 @@ msgid "basic_html"
 msgstr ""
 
 #: themes/socialbase/templates/node/node--full.html.twig:164
-#: themes/socialblue/templates/node/node--hero--sky.html.twig:183
+#: themes/socialblue/templates/node/node--hero--sky.html.twig:184
 msgid "comment"
 msgid_plural "comments"
 msgstr[0] "Kommentar"
@@ -14427,7 +14464,7 @@ msgstr "in @topic"
 msgid "in group"
 msgstr "in der Gruppe"
 
-#: themes/socialblue/templates/node/node--hero--sky.html.twig:145
+#: themes/socialblue/templates/node/node--hero--sky.html.twig:146
 msgid "in group @group_link"
 msgstr ""
 
@@ -14519,12 +14556,12 @@ msgstr "nie"
 msgid "node/{{ nid }}"
 msgstr ""
 
-#: translations.php:84
+#: translations.php:92
 #: modules/social_features/social_like/social_like.tokens.inc:116
 msgid "on a"
 msgstr "auf/zu eine(r,m)"
 
-#: translations.php:85
+#: translations.php:93
 #: modules/social_features/social_like/social_like.tokens.inc:112
 msgid "on the"
 msgstr "auf/zu dem/der"
